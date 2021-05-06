@@ -1,4 +1,3 @@
-
 ASL {
     data 	
     codice_regione 	
@@ -8,7 +7,7 @@ ASL {
 }
 
 ANDAMENTO {
-    ricoverati_con_sintomi 	
+    ricoverati_con_sintomi	
     terapia_intensiva 	
     totale_ospedalizzati 	
     isolamento_domiciliare

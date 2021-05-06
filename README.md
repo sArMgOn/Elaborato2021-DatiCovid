@@ -2,19 +2,31 @@
 
 ## Bozza inserimento dati ASL
 
-| regione | provincia | data | #contagi | #tamponi | #tamponi_positivi | #tamponi_negativi | #guariti | #ospedalizzazioni | #decessi | #quarantena |  
-| :-----: | :-------: | :--: | :------: | :------: | :---------------: | :---------------: | :------: | :---------------: | :------: | :---------: | :----------------: |
-
 * ASL
     * regione
     * provincia
     * lat
     * long
     * data
+* SANITARIO
+    * ingressi_ospedalizzazioni
+    * ingressi_terapia_intensiva
+    * ingressi_isolamento_domiciliare
+    * dimessi_guariti
+    * dimessi
+    * deceduti
+* CASO
+    * nuovi_positivi
+    * guariti
+    * casi_da_sospetto_diagnostico
+    * casi_da_screening
+* TAMPONE
+    * tot_molecolare_odierno
+    * tot_antigenico_odierno
+    * positivi_test_molecolare
+    * positivi_test_antigenico_rapido
 
-* ingressi_ospedalizzazioni
-* ingressi_terapia_intensiva
-* ingressi_isolamento_domiciliare
+
 
 
 
