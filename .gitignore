@@ -1,0 +1,5 @@
+# ignore text file
+t.txt
+
+# ignore VS Code
+.vscode
