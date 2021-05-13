@@ -101,10 +101,17 @@ poiche (1,1) =>
 ### Schema Relazionale Completo
 
 Persona ( <u>codice_fiscale</u>, data_nascita, occupazione, sintomi, stato_salute, <u>provincia</u> )
+
 Quarantena ( <u>cf_p</u>, <u>cod_prov</u>, inizio_quarantena, fine_quarantena )
+
 Ricovero ( <u>code_ospedale</u>, <u>cf_ricoverato</u>, data_ricovero, data_dimissione )
+
 Test ( <u>tampone</u>, <u>testato</u>, data_prescrizione, data_risultato )
+
 Tampone ( <u>codice_tampone</u>, tipo, esito, <u>cod_ASL</u> )
+
 ASL ( <u>codice_azienda</u>, username, password, cap, via, num_civico, <u>cod_provincia</u> )
+
 Ospedale ( <u>codice_struttura</u>, nome, cap, via, num_civico, <u>provincia_osp</u> )
+
 Provincia ( <u>codice_provincia</u>, denominazione, regione )
